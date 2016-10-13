@@ -15,8 +15,8 @@ import Foundation
 
 import Alamofire
 import RxSwift
-import struct RxCocoa.Reactive
-import protocol RxCocoa.ReactiveCompatible
+//import struct RxCocoa.Reactive
+//import protocol RxCocoa.ReactiveCompatible // FIXME
 /// Default instance of unknown error
 public let RxAlamofireUnknownError = NSError(domain: "RxAlamofireDomain", code: -1, userInfo: nil)
 
